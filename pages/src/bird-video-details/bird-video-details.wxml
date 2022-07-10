@@ -1,0 +1,20 @@
+<view class="vdBox" wx:if="{{flag}}">
+	<view class="vd">
+		<video id="myVideo" custom-cache="{{false}}" src="{{videoInfo.src}}" style="" enable-progress-gesture enable-danmu controls autoplay></video>
+	</view>
+	<view class="videoTitle">{{videoInfo.title}}</view>
+
+	<view class="vd_cont">
+		<view class="videoDate">上映时间：{{videoInfo.createTime}}</view>
+		<view style="font-size:28rpx;">主演：{{videoInfo.name}}</view>
+	</view>
+
+
+	<!-- 信息 -->
+	<view class="workerBox">
+		<view class="worker">
+			<view class="workerName">注：本视频为预告片，正片请到官网观看</view>
+		</view>
+		<view class="desc">{{videoInfo.desc}}</view>
+	</view>
+</view>

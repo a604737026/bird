@@ -1,0 +1,4 @@
+<view class="my-echart">
+   <ec-canvas id="echarts_temp"></ec-canvas>
+   <!-- 在这引入echarts组件标签 -->
+ </view>

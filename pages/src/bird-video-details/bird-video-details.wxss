@@ -1,0 +1,134 @@
+.vdBox {
+  padding-bottom: 30rpx;
+}
+
+video {
+  width: 750rpx;
+}
+
+.videoTitle {
+  margin: 20rpx 30rpx;
+  font-size: 36rpx;
+}
+
+.vd_cont {
+  display: flex;
+  flex-direction: column;
+  padding:0 30rpx;
+  color: #888;
+}
+
+.video_L, .video_R {
+  display: flex;
+  align-items: center;
+}
+
+.videoName {
+  font-size: 28rpx;
+}
+
+/* 商品 */
+.commodityWrapper {
+  width: 750rpx;
+  white-space: nowrap;
+  padding: 25rpx 0;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.commodity-item {
+  display: inline-block;
+  margin-left: 30rpx;
+  overflow: hidden;
+}
+
+.commodity-item:last-child {
+  margin-right: 30rpx;
+}
+
+.commodity {
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 20rpx;
+  width: 588rpx;
+  box-sizing: border-box;
+  border-radius: 12rpx;
+}
+
+.commodityImg {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 0;
+}
+
+.commodityImg image {
+  width: 160rpx;
+  height: 500rpx;
+}
+
+.commodityTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30rpx;
+}
+
+.commodityName {
+  font-size: 26rpx;
+  color: #484848;
+  white-space: normal;
+  width: 356rpx;
+
+}
+
+.price {
+  font-size: 26rpx;
+  color: #de594f;
+}
+
+.commodityBom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy {
+  border-radius: 30rpx;
+  border: 1px solid #25c9d0;
+  color: #25c9d0;
+  font-size: 24rpx;
+  padding: 5rpx 34rpx;
+}
+
+/* 描述 */
+
+.workerBox {
+  margin: 36rpx 30rpx;
+}
+
+.worker {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.workerName{
+  font-size: 28rpx;
+  color: red;
+}
+
+.desc {
+  font-size: 28rpx;
+  color: #464646;
+  text-indent: 2em;
+}
+
+/* 时间 */
+.videoDate{
+  display: flex;
+  color: #ACACAC; 
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}

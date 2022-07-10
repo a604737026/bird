@@ -1,0 +1,13 @@
+<view class='bird'>
+	<view class='bird-title'>获奖记录</view>
+	<view class='bird-txt'>
+		<text>1、2018年第60回日本唱片大奖【同步巧合】（获奖）</text>
+		<text>2、2017年第59回日本唱片大奖【大影响家】（获奖） </text>
+		<text>3、2017年第50回日本有线大赏 【大影响家】（获奖）</text>
+		<text>4、2017年第30回日本金唱片大奖Best 5 Singles【太阳敲敲门】（获奖）</text>
+	</view>
+
+	<view class="bird-img">
+		<image bindtap="previewImg" data-src='http://download.egaiyi.com/1614240259448.jpg' mode='widthFix' src="http://download.egaiyi.com/1614240259448.jpg"></image>
+	</view>
+</view>

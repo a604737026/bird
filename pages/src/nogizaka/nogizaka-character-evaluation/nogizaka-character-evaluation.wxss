@@ -1,0 +1,47 @@
+page {
+  background-color: #f6f6f6;
+}
+
+.line {
+  height: 1rpx;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.bird {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 20rpx 30rpx;
+}
+
+.bird-title {
+  font-weight: 900;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20rpx;
+}
+
+.bird-txt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+
+.bird-txt text {
+  font-size: 26rpx;
+  color: #666;
+  text-indent: 2em;
+  padding-bottom: 20rpx;
+  line-height: 2;
+}
+
+.bird-img {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.bird-img image{
+  width: 100%;
+}

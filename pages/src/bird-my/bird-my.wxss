@@ -1,0 +1,102 @@
+page{
+    background-color: #f6f6f6;
+}
+.line{
+    height: 1rpx;
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 10rpx 0;
+}
+.bird{
+    width: 100%;
+    background-color: #fff;
+}
+.bird-head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20rpx 30rpx;
+    box-sizing: border-box;
+    align-items: center;
+}
+.bird-cont{
+    display: flex;
+}
+.bird-img {
+    width: 150rpx;
+    height: 150rpx;
+}
+.bird-img image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.bird-txt{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rpx;
+    flex: 1;
+}
+.bird-txt text{
+    font-size: 24rpx;
+    color: #666;
+    padding-bottom: 10rpx;
+}
+.bird-txt text:first-child{
+    font-size: 32rpx;
+    color: #000;
+}
+.bird-set{
+    align-items: center;
+    color: #666;
+    font-size: 32rpx;
+}
+
+/* 个人 */
+.bird-x .bird-x-s{
+    padding: 30rpx;
+    font-size: 28rpx;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+}
+.bird-icon {
+    width: 30rpx;
+    height: 30rpx;
+    background-image: url("http://download.egaiyi.com/tmp/wx01ff8f3ed39c2d48.o6zAJs9kfcPbwgty-CI0FHMpNCZo.bKBtb54bRMUY5d4acb3aa46a7a511e41d51247fcb906.png");
+    background-size: 100% 100%;
+    align-self: center;
+}
+
+.toutiao{
+    display: flex;
+    border-top: 1px solid #f6f6f6;
+    /* padding: 20rpx; */
+    font-size: 28rpx;
+    color: #666;
+    height: 70rpx;
+    overflow: hidden;
+    align-items: center;
+    box-sizing: border-box;
+}
+.tou-title{
+    padding-right: 20rpx;
+    color: #000;
+    padding-left: 30rpx;
+    font-weight: 900;
+}
+.tou-txt{
+    display: flex;
+    position: relative;
+    top: 30px;
+    /* width: 580rpx; */
+    /* 偏移出文本框的内容隐藏掉 */
+    overflow: hidden;
+    align-items: center;
+    flex: 1;
+}
+.tou-txt text{
+      /* 文字内容只做一行显示 */
+    white-space: nowrap;
+    font-size: 24rpx;
+}

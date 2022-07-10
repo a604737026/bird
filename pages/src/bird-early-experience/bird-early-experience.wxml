@@ -1,0 +1,10 @@
+<view class='bird'>
+    <view class="bird-title">早年经历</view>
+    <view class='bind-txt'>
+        <text>斋藤飞鸟是日缅混血儿，1998年8月10日出生于日本东京都，因为两个哥哥的名字里都带有“鸟”字，父亲给她取名为“飞鸟”</text>
+        <text>她在私立学校上小学时看到舞蹈社以AKB48的曲目为伴奏表演，此后产生了对成为偶像（歌手）的向往；斋藤飞鸟小学时的社团是铜管乐队，初中则参加了吹奏乐部，不过获选为乃木坂46成员后便退出了社团。</text>
+    </view>
+    <view class='bird-img'>
+        <image src='http://download.egaiyi.com/1594955841007.jpg' mode="widthFix"></image>
+    </view>
+</view>

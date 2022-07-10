@@ -1,0 +1,150 @@
+/* pages/menu/menu.wxss */
+.main {
+  width: 100%;
+  height: calc(100vh);
+  /* height: calc(100vh - 361.11rpx);使用rpx单位 避免其他其他机型底部内容被覆盖问题  */
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* 左侧滑动 */
+.main .left {
+  width: 25%;
+  height: 100%;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.sixItem {
+  font-size: 28rpx;
+  color: #fff;
+  background-color: #333;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-bottom: 2rpx solid #ccc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.left .scroll-view-item {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-bottom: 2rpx solid #ccc;
+  font-size: 28rpx;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.left .scroll-view-item.active {
+  background-color: #7d2981;
+  color: #fff;
+}
+
+.left .scroll-view-item.active::before {
+  display: block;
+}
+
+.left .scroll-view-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8rpx;
+  height: 100%;
+  background-color: #efb8cb;
+  display: none;
+}
+
+/* 右侧滑动 */
+.right {
+  width: 75%;
+  height: 100%;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+
+.right .title {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+
+/* .right .content {
+  margin-bottom: 20rpx;
+  padding: 20rpx 14rpx 0 0;
+  border-radius: 10rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.right .content view {
+  margin-bottom: 10rpx;
+  width: 30%;
+  margin-left: 3.2%;
+}
+
+.right .content view image {
+  width: 100%;
+  display: block;
+  border-radius: 10rpx;
+}
+
+.right .content view text {
+  display: block;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */
+
+
+.rightBox {
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-size: 24rpx;
+}
+
+.rightBox_L {
+  width: 35%;
+}
+
+.rightBox_L image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10rpx;
+}
+
+.rightBox .rightBox_R {
+  width: 65%;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}
+
+.rightBox_R view:not(:last-child) {
+  margin-bottom: 20rpx;
+}

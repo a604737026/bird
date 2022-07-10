@@ -1,0 +1,11 @@
+<view class='bird'>
+	<view class='bird-title'>人物评价</view>
+	<view class='bird-txt'>
+		<text>区别于同时期日本女团流行的甜美系，乃木坂46主打清新复古风，其推出的作品也很好地融合了校园清新的感觉，于是一举积累了自己数量可观的死忠饭。在粉丝心目中，乃木坂46吸引他们的地方不仅只是清纯可人，最吸引他们的还是乃木坂46对正能量的传播。在乃木坂46的歌曲中，随处都可以感受到她们传播正能量的使命感。（中国娱乐网评）</text>
+		<text>正如她们的单曲《乃木坂之诗》中所唱的：“攀登陡坡的目的是为了变得更强”，生来就是为了超越的乃木坂46，一直以来都在不断尝试新的挑战，与只展露活泼快乐一面的偶像不同，乃木坂46的曲风也有伤感的一面，给予粉丝元气的同时也给予体贴和理解，展露笑颜的同时也分享更多细腻的感情。（Billboard评）</text>
+	</view>
+
+	<view class="bird-img">
+		<image bindtap="previewImg" data-src='http://download.egaiyi.com/1614223810815.jpg' mode='widthFix' src="http://download.egaiyi.com/1614223810815.jpg"></image>
+	</view>
+</view>

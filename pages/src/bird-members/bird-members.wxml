@@ -1,0 +1,32 @@
+<view class="main">
+	<!-- 左侧 -->
+	<scroll-view scroll-y="true" class="left" scroll-into-view="left{{leftId}}">
+		<view wx:for="{{nogizakaFortySix}}" wx:for-item="sixItem" wx:key="*this">
+			<view class="sixItem">{{sixItem.name}}</view>
+			<view id="left{{item.stageId}}" bindtap="changeFn" data-id="{{item.stageId}}" class="scroll-view-item {{current===item.stageId?'active':''}}" wx:for="{{sixItem.nogizakaList}}" wx:key="*this">{{item.name}}</view>
+		</view>
+	</scroll-view>
+
+	<!-- 右侧 -->
+	<!-- 要点击左侧时，右侧实现滑动到指定位置，要加scroll-with-animation="true  才能实现过度滚动动画效果-->
+	<scroll-view scroll-y="true" bindscroll="bindscrollFn" class="right" scroll-into-view="right{{rightId}}" scroll-with-animation="true" showScrollbar="false" enhanced="true">
+		<!-- scroll-into-view="right{{rightId}}" 要与 下面这个view的id一致 -->
+		<view wx:for="{{nogizakaFortySix}}" wx:for-item="sixItem" wx:key="*this">
+			<view id="right{{item.stageId}}" class="scroll-view-item box" wx:for="{{sixItem.nogizakaList}}" wx:key="*this">
+				<!-- 标题 -->
+				<view class="title">{{item.name}}</view>
+				<view class="rightBox">
+					<view class="rightBox_L">
+						<image data-src="{{item.aggregate[0].img}}" bindtap="previewImg" src="{{item.aggregate[0].img}}" mode="widthFix"></image>
+					</view>
+					<view class="rightBox_R" data-id="{{item.stageId}}" catchtap="rightBtn">
+						<view wx:for="{{item.means}}" wx:for-item="meanItem" wx:key="*this">
+							<text>{{meanItem.value}}：</text>
+							<text>{{meanItem.label}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</scroll-view>
+</view>

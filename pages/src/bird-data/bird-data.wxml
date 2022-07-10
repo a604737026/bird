@@ -1,0 +1,21 @@
+<view class='bird'>
+    <view class='bird-cont'>
+        <view class='bird-txt'>
+            <text>斋藤飞鸟</text>
+            <text>斋藤飞鸟（さいとう あすか），1998年8月10日出生于东京都，日本女歌手、模特。</text>
+        </view>
+        <view class='bind-img'>
+            <image src='http://download.egaiyi.com/1594957409958.jpg' mode="aspectFit"></image>
+        </view>
+    </view>
+    <view class='line'></view>
+
+    <view class='bird-content'>
+        <text>2011年8月，通过选拔成为日本女子偶像团体乃木坂46的一期成员，并于2012年2月发行组合首张单曲《ぐるぐるカーテン》出道。</text>
+        <text>2014年4月，作为鼓手参与成立特别乐队乃木团；2015年2月，成为《CUTiE》杂志首位专属模特，同年7月从该杂志毕业并成为《sweet》杂志的正式模特.</text>
+        <text>2016年，在组合第15张单曲首次被选为中心成员 。</text>
+        <text>2014年4月，作为鼓手参与成立特别乐队乃木团；2015年2月，成为《CUTiE》杂志首位专属模特，同年7月从该杂志毕业并成为《sweet》杂志的正式模特。</text>
+        <text>2016年，在组合第15张单曲首次被选为中心成员。</text>
+        <text>2017年，主演青春电影《那些年，我们一起追的女孩》（日版），饰演早濑真爱。</text>
+    </view>
+</view>

@@ -1,0 +1,9 @@
+<view class='bird'>
+  <view class='bird-title'>人物评价</view>
+  <view class='bird-txt'>斋藤飞鸟在《CUTiE》的模特当中确实年龄稍微偏低，不过她很擅长表现气氛的方式，能够根据杂志要求的意向展现不同表情，与摄影棚的氛围和服装配合融洽，并且拥有女性杂志模特所特有的坚强内心等，成长后的发展潜能较大。（《CUTiE》主编田所小卷评 ）</view>
+  <view class='bird-txt'>斋藤飞鸟外形清纯可爱，符合亚洲人对美少女的定义 [51] ，但号称“被神选中的美少女”或许是因日本网友在形容词上太过夸张。（新浪时尚、南都娱乐评）</view>
+
+  <view class="bird-img">
+    <image mode='widthFix' src="http://download.egaiyi.com/1594956007813.jpg"></image>
+  </view>
+</view>

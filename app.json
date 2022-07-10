@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/src/bird-products/bird-products",
+    "pages/src/bird-members/bird-members",
+    "pages/src/bird-my/bird-my",
+    "pages/src/bird-data/bird-data",
+    "pages/src/bird-early-experience/bird-early-experience",
+    "pages/src/bird-performing-experience/bird-performing-experience",
+    "pages/src/bird-major-works/bird-major-works",
+    "pages/src/bird-variety-show/bird-variety-show",
+    "pages/src/bird-setUp/bird-setUp",
+    "pages/src/bird-reference-material/bird-reference-material",
+    "pages/src/bird-video-details/bird-video-details",
+    "pages/src/nogizaka/nogizaka-data/nogizaka-data",
+    "pages/src/nogizaka/nogizaka-performing-experience/nogizaka-performing-experience",
+    "pages/src/nogizaka/nogizaka-major-works/nogizaka-major-works",
+    "pages/src/nogizaka/nogizaka-character-evaluation/nogizaka-character-evaluation",
+    "pages/src/nogizaka/nogizaka-social-activities/nogizaka-social-activities",
+    "pages/src/nogizaka/nogizaka-award-records/nogizaka-award-records",
+    "pages/src/nogizaka/nogizaka-video-details/nogizaka-video-details",
+    "pages/src/nogizaka/nogizaka-member-information/nogizaka-member-information"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "笑猫不笑",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#7d2981",
+    "backgroundColor": "#FFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/bird.png",
+        "selectedIconPath": "./images/bird_T.png"
+      },
+      {
+        "pagePath": "pages/src/bird-products/bird-products",
+        "text": "乃木集",
+        "iconPath": "./images/collect.png",
+        "selectedIconPath": "./images/collect_T.png"
+      },
+      {
+        "pagePath": "pages/src/bird-members/bird-members",
+        "text": "组合成员",
+        "iconPath": "./images/member.png",
+        "selectedIconPath": "./images/member_T.png"
+      },
+      {
+        "pagePath": "pages/src/bird-my/bird-my",
+        "text": "资料库",
+        "iconPath": "./images/database.png",
+        "selectedIconPath": "./images/database_T.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio",
+    "backgroundAudioManager"
+  ]
+}

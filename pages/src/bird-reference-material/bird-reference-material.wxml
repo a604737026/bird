@@ -1,0 +1,8 @@
+<view class='reference'>
+    <view class='bird-title'>参考资料</view>
+    <view class='mateList' wx:for="{{mateList}}" wx:if="{{index<idxLength}}" wx:for-item="mateListItem" wx:key="index">
+        <text class='mateList_txt'>{{index+1}}.{{mateListItem.text}}</text>
+        <text class='mateList_date'>{{mateListItem.date}}</text>
+    </view>
+    <view class='allData' catchtap='allBtn'>{{allData == '0'?'展开全部':'收起全部'}}</view>
+</view>

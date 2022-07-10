@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class='selection'>
+    <swiper circular indicator-dots="true" autoplay="true" interval="3000" duration="1000" bindchange="bindchange" style="height:{{imgheights[current]}}rpx">
+      <block wx:for="{{imgUrls}}" wx:key="index">
+        <swiper-item>
+          <image mode="widthFix" src="{{item}}" class="slide-image" class='swiper-img' data-id='{{index}}' bindload="imageLoad"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class='selection'>
+    <view class='header'>
+      <text>乃木坂46</text>
+      <text class='text-all'>飞鸟镇楼</text>
+    </view>
+
+    <view class='content'>
+      <view class='content-item' wx:for-items="{{contentItems}}" wx:for-item="item" wx:key="index">
+        <image src="{{item.img}}"></image>
+        <view class='content-item-text'>
+          <text>{{item.text}}</text>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+  <view class='selection'>
+    <view class='header'>
+      <text>斋藤飞鸟</text>
+      <text class='text-all'>资料简介</text>
+    </view>
+
+    <view class='list-item' wx:for-items="{{listItem}}" data-id='{{item.id}}'  wx:for-item="item" wx:key="index" bindtap='listBtn'>
+      <view class='list-item-images'>
+        <image src="{{item.image}}" class='list-item-images-img'></image>
+        <image src="{{item.image}}" class='avatar'></image>
+      </view>
+
+      <view class='list-item-text' >
+        <view class='list-item-text-title' >
+          <text>{{item.text}}</text>
+        </view>
+
+        <view class='list-item-text-content'  >
+           <text >{{item.content}}</text> 
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

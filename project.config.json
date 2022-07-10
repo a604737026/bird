@@ -1,0 +1,133 @@
+{
+  "description": "项目配置文件。",
+  "cloudfunctionRoot": "bird/",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.4.2",
+  "appid": "wxb65b73be87f658a2",
+  "projectname": "bird",
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "我的",
+          "pathName": "pages/src/bird-my/bird-my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "小鸟资料",
+          "pathName": "pages/src/bird-data/bird-data",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "早年经历",
+          "pathName": "pages/src/bird-early-experience/bird-early-experience",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "演艺经历",
+          "pathName": "pages/src/bird-performing-experience/bird-performing-experience",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "主要作品",
+          "pathName": "pages/src/bird-major-works/bird-major-works",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "综艺节目",
+          "pathName": "pages/src/bird-variety-show/bird-variety-show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "飞鸟集",
+          "pathName": "pages/src/bird-products/bird-products",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "参考资料",
+          "pathName": "pages/src/bird-reference-material/bird-reference-material",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "组合成员",
+          "pathName": "pages/src/bird-members/bird-members",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

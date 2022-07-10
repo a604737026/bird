@@ -1,0 +1,129 @@
+page {
+    background-color: #f6f6f6;
+}
+
+.line {
+    height: 1rpx;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.selection {
+    /* border-bottom: 3px solid #ddd; */
+}
+
+.selection:last-child {
+    border: none;
+}
+
+.selection swiper {
+    height: 100%;
+}
+
+.selection swiper .swiper-img {
+    width: 100%;
+    height: auto;
+}
+
+.bird {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20rpx 30rpx;
+}
+
+.bird-title {
+    margin: 30rpx 0;
+}
+
+.bird-box {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30rpx;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.bird-cont {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 20rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+
+.bird-img {
+    width: 280rpx;
+    height: 100%;
+}
+
+.bird-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.bird-txt text {
+    font-size: 26rpx;
+    color: #666;
+    line-height: 2;
+}
+
+.bird-txt text:last-child,
+.bird-txt text:first-child {
+    /* width: 120rpx; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 滚动条 */
+.nogizakaBox {
+    background-color: #fff;
+}
+
+/* 四期生 */
+.nogizakaList {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1rpx solid #eee;
+}
+
+.nogizakaList view {
+    font-size: 30rpx;
+    padding: 30rpx 0;
+    color: #333;
+    flex: 1;
+    text-align: center;
+}
+
+.nogizakaList .is-active {
+    color: #fff;
+    background-color: #7d2981;
+    border-top-left-radius: 20rpx;
+    border-top-right-radius: 20rpx;
+}
+
+.nogizakaFortySix {
+    display: flex;
+    overflow-x: scroll;
+    width: auto;
+    height: 9vh;
+    white-space: nowrap;
+    border-bottom: 1rpx solid #eee;
+}
+
+.nogizakaFortySix view {
+    display: inline-block;
+    font-size: 28rpx;
+    padding: 30rpx;
+    color: #777;
+}
+
+.nogizakaFortySix .is-active {
+    color: #7d2981;
+    font-weight: 900;
+    font-size: 30rpx;
+}

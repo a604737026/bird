@@ -1,0 +1,35 @@
+<view class='selection'>
+	<swiper circular indicator-dots="true" interval="3000" duration="1000" bindchange="bindchange" style="height:{{imgheights[current]}}rpx">
+		<block wx:for="{{nogizakaUrls}}" wx:key="index">
+			<swiper-item>
+				<image mode="widthFix" src="{{item}}" class="slide-image" class='swiper-img' data-id='{{index}}' data-src='{{item}}' bindload="imageLoad" bindtap='previewImg' />
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+
+<!-- <view class='line'></view> -->
+<view class="nogizakaBox">
+	<view class="nogizakaList">
+		<view class="{{item.id == nogizakaId ? 'is-active' : ''}}" wx:for="{{nogizakaFortySix}}" wx:for-item="item" wx:key="index" data-id="{{item.id}}" catchtap="nogizakaBtn">{{item.name}}</view>
+	</view>
+	<scroll-view id="nogizakaFortySix" class="nogizakaFortySix" scroll-x scroll-with-animation scroll-left="{{scrollLeft}}">
+		<view class="{{item.stageId == stageId ? 'is-active' : ''}}" wx:for="{{nogizakaList}}" wx:for-item="item" wx:key="index" data-id="{{item.stageId}}" catchtap="stageBtn">{{item.name}}
+		</view>
+	</scroll-view>
+</view>
+
+<view class='bird'>
+	<view class='bird-box'>
+		<view wx:for="{{nogizakaList}}" wx:if="{{item.stageId ==stageId }}" wx:for-item="item" wx:key="index">
+			<view class='bird-cont' wx:for="{{aggregate}}" wx:for-item="aggregateList" wx:key="index">
+				<image data-src="{{aggregateList.img}}" src='{{aggregateList.img}}' bindtap='previewImg2' mode='widthFix' class='bird-img'></image>
+				<view class='bird-txt'>
+					<text>{{aggregateList.book}}</text>
+					<text>{{aggregateList.time}}</text>
+					<text>{{aggregateList.introduce}}</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

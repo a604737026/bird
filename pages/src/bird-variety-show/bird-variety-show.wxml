@@ -1,0 +1,21 @@
+<view class='bird'>
+    <view class='bird-title'>综艺节目</view>
+    <view class='bird-top'>
+        <view class='bird-x'>播出时间</view>
+        <view class='bird-x'>节目名称</view>
+        <view class='bird-x'>节目简介</view>
+    </view>
+
+    <view class='bird-box' wx:for="{{variety}}" wx:for-item="varietyList" wx:key="index">
+        <view class='bird-time bird-s'>
+            {{varietyList.broadcastTime}}
+        </view>
+        <view class='bird-program bird-s'>
+          {{varietyList.programName}}
+        </view>
+        <view class='bird-introduction bird-s'>
+          {{varietyList.introduction}}
+        </view>
+
+    </view>
+</view>

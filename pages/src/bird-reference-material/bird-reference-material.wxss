@@ -1,0 +1,37 @@
+page {
+    background-color: #f6f6f6;
+}
+
+.reference{
+   width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20rpx 30rpx;
+}
+.bird-title{
+    font-weight: 900;
+    color: #000;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20rpx;
+}
+
+.mateList{
+    font-size: 24rpx;
+    margin-top: 20rpx;
+}
+.mateList_txt{
+    color: #666;
+}
+
+.mateList_date{
+    color: #aaa;
+}
+.allData{
+    background: #eee;
+    width: 150rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+}

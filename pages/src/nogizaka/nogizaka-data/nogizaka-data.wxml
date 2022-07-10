@@ -1,0 +1,19 @@
+<view class='bird'>
+    <view class='bird-cont'>
+        <view class='bird-txt'>
+            <text>乃木坂46</text>
+            <text>（英文：Nogizaka46）成立于2011年8月21日，是日本索尼音乐娱乐旗下的大型女子偶像组合。</text>
+        </view>
+        <view class='bind-img'>
+            <image src='http://download.egaiyi.com/o_1ev6v1dur1f4k1kheoe18kt10rl78.jpg' mode="aspectFit"></image>
+        </view>
+    </view>
+    <view class='line'></view>
+
+    <view class='bird-content'>
+        <text>乃木坂46成立于2011年8月21日，是日本索尼音乐娱乐旗下的大型女子偶像组合。组合共有成员44名，现任队长为秋元真夏 。</text>
+        <text>2012年2月22日，组合发行单曲《窗帘围绕》后正式出道；同年5月凭借第二张单曲《来吧Shampoo》首次获得日本公信榜周榜冠军。2015年1月7日，发行首张专辑作品《透明色》。</text>
+        <text>2015年12月31日，首次登上NHK红白歌会舞台。2017年及2018年，组合分别凭借第17张单曲《大影响家》、第20张单曲《同步巧合》连续两年斩获日本唱片大奖。</text>
+        <text>至2021年1月，组合已发行26张单曲、5张专辑作品，CD总销量达2100万张，年度唱片总销售额超百亿日元（2018年）。</text>
+    </view>
+</view>

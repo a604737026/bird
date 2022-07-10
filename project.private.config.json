@@ -1,0 +1,98 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "我的",
+          "pathName": "pages/src/bird-my/bird-my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "小鸟资料",
+          "pathName": "pages/src/bird-data/bird-data",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "早年经历",
+          "pathName": "pages/src/bird-early-experience/bird-early-experience",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "演艺经历",
+          "pathName": "pages/src/bird-performing-experience/bird-performing-experience",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "主要作品",
+          "pathName": "pages/src/bird-major-works/bird-major-works",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "综艺节目",
+          "pathName": "pages/src/bird-variety-show/bird-variety-show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "飞鸟集",
+          "pathName": "pages/src/bird-products/bird-products",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "参考资料",
+          "pathName": "pages/src/bird-reference-material/bird-reference-material",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "组合成员",
+          "pathName": "pages/src/bird-members/bird-members",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "资料库",
+          "pathName": "pages/src/bird-my/bird-my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "主要作品",
+          "pathName": "pages/src/nogizaka/nogizaka-major-works/nogizaka-major-works",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "123",
+          "pathName": "pages/logs/logs",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

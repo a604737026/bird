@@ -1,0 +1,68 @@
+<view class='bird'>
+	<view class='bird-title'>主要作品：</view>
+	<view class='line'></view>
+	<view class='bird-cont'>
+		<!-- 参演电影 -->
+		<view class='bird-film'>
+			<view class='bird-txt'>参演电影</view>
+			<view class='bird-box' wx:for="{{film}}" wx:for-item="filmList" wx:key="index" data-id="{{filmList.id}}" data-type="{{filmList.type}}" catchtap="videoBtn">
+				<view class='bird-img'>
+					<image src='{{filmList.img}}' mode='widthFix'></image>
+				</view>
+				<view class='bird-x'>
+					<view class='bird-text'>
+						<text>影名：</text>
+						<text  class='color'>{{filmList.text}}</text>
+					</view>
+					<view class='bird-text'>
+						<text>时间：</text>
+						<text>{{filmList.time}}</text>
+					</view>
+					<view class='bird-text'>
+						<text>{{filmList.part.partship}}</text>
+						<text>{{filmList.part.character}}</text>
+					</view>
+					<view class='bird-text'>
+						<text>{{filmList.director.directorship}}</text>
+						<text>{{filmList.director.directorName}}</text>
+					</view>
+					<view class='bird-text'>
+						<text>{{filmList.star.statship}}</text>
+						<text>{{filmList.star.actor}}</text>
+					</view>
+
+				</view>
+			</view>
+		</view>
+		<view class='line'></view>
+		<!-- 参演电视剧 -->
+		<view class='bird-film'>
+			<view class='bird-txt'>参演电视剧</view>
+			<view class='bird-box' wx:for="{{tvplay}}" wx:for-item="tvplayList" wx:key="index" data-id="{{tvplayList.id}}" data-type="{{tvplayList.type}}" catchtap="videoBtn">
+				<view class='bird-img'>
+					<image src='{{tvplayList.img}}' mode='widthFix'></image>
+				</view>
+				<view class='bird-x'>
+					<view class='bird-text'>
+						<text>影名：</text>
+						<text class='color'>{{tvplayList.text}}</text>
+					</view>
+					<view class='bird-text'>
+						<text>时间：</text>
+						<text>{{tvplayList.time}}</text>
+					</view>
+					<view class='bird-text'>
+						<text>{{tvplayList.director.directorship}}</text>
+						<text>{{tvplayList.director.directorName}}</text>
+					</view>
+					<view class='bird-text'>
+						<text>{{tvplayList.star.statship}}</text>
+						<text>{{tvplayList.star.actor}}</text>
+					</view>
+
+				</view>
+			</view>
+		</view>
+
+	</view>
+</view>

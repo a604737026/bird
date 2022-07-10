@@ -1,0 +1,53 @@
+page {
+    background-color: #f6f6f6;
+}
+
+.bird {
+    width: 100%;
+    background-color: #fff;
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+
+.bird-title {
+    color: #000;
+    font-weight: 900;
+}
+
+.bird-top {
+    margin: 30rpx 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.bird-box {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20rpx;
+}
+
+.bird-x, .bird-s {
+    font-size: 28rpx;
+    color: #666;
+    width: 33.333%;
+    align-self: center;
+}
+
+.bird-x {
+    color: #000;
+    padding: 20rpx;
+    font-weight: 900;
+}
+
+.bind-txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rpx;
+}
+
+.bird-time {
+    align-self: center;
+}
